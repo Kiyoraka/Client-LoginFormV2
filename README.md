@@ -11,7 +11,7 @@ A PHP-based login system with modern interface and glowing logo animation for bi
 - Error message display
 - Clean dark theme interface
 - Responsive design
-- Protected routes
+
 
 ## 🛠️ Technologies Used
 - PHP 7.4+
@@ -69,8 +69,7 @@ http://localhost/bicycle-login/
 
 ## 🎨 Logo Requirements
 ### logo.png
-- Size: 150x150 pixels
-- Type: Bicycle shop logo
+
 - Format: PNG with transparency
 - Location: assets/img/logo.png
 
@@ -78,10 +77,7 @@ http://localhost/bicycle-login/
 - Server-side validation
 - Session management
 - Secure cookie handling
-- SQL injection protection
-- XSS prevention
-- CSRF protection
-- Secure password handling
+
 
 ## 🔧 Customization
 ### Modifying Credentials
