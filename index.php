@@ -42,15 +42,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Client Login v2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <div class="login-box">
             <div class="logo-container">
-                <img src="logo.png" alt="Frying Pan Logo" class="logo">
-                <h2>Client Login v2</h2>
+                <img src="assets/img/logo.png" alt="Main Logo" class="logo">
+                <h2>Client Login</h2>
             </div>
             <?php if (!empty($error)): ?>
                 <div class="error-message"><?php echo $error; ?></div>
